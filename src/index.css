@@ -1,0 +1,39 @@
+
+
+.header{
+  background-color: blueviolet;
+  text-align: center;
+  color: aliceblue;
+  grid-area: header;
+}
+
+.home{
+  background-color: aqua; 
+  grid-area: home;
+}
+
+.Chatbot{
+  grid-area: Chatbot;
+  background-color: #f1f1f1;
+  height: calc(100vh - 5px);
+
+}
+
+.Footer{
+    grid-area: Footer;
+    text-align: center;
+    background-color: greenyellow;
+    height: 50PX;
+    width: 100%;
+    padding: 5px;
+    bottom: 0;
+    position: absolute; 
+}
+
+.conteudo{
+  display: grid;
+  grid-template-areas: 
+  'header header header header'
+  'home home home Chatbot'
+  'Footer Footer Footer Footer';
+}

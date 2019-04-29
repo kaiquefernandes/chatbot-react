@@ -1,0 +1,23 @@
+.chatheader{
+    background: red;
+}
+.chatmensagem{
+    background: green;
+    bottom: 0;
+    position: relative;
+}
+.chatconversa{
+    background: orange;
+    position: relative;
+    height: 25%;
+}
+
+.chatconteudo{
+
+    display: grid;
+    grid-template-rows: 40px auto 40px; 
+    background: rgb(84, 92, 68);
+    padding: 8px;
+    height: calc(40vh - 5px);
+
+}
